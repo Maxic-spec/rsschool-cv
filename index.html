@@ -5,42 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
   </head>
   <body>
-    <header>Hi ,i am Max!Now,i will tell you about me!</header>
+    <header>Hi,I am Max! 😜 Now,i will tell you about me!</header>
     <main>
-    <h1>Stavrov Maxim</h1>
-    <h2>Phone:</h2>
-    <p>+375 (29) 634 84 13</p>
-    <h2>E-mail:</h2>
-    <p>maksim.stavrov045@gmail.com</p>
-    <h3>My goal:</h3>
-    <p> I am taking this course to get to know programming better. I believe that taking this course will be a good start for my future career.</p>
-    <p><strong>Education & Experience:</strong>I completed the course from EPAM ekids HTML&CSS,and i read a book “Python для детей” .</p>
-        <p><strong>Courses:</strong> I am taking now following courses:</p>
-    <a href="https://www.udemy.com/course/chatgpt-ai-openai-ru/learn/lecture/47118823?start=0#overview">ChatGPT: полный курс по AI и ChatGPT</a>
-    <a href="https://www.udemy.com/course/git-github-ru/learn/lecture/34967216#overview">Git - полный курс по Git и Github</a>
-    <p><strong>Сode examples:</strong></p>
-    <p>from tkinter import *
-H=500
-W=800
-window=Tk()
-window.title("Buble Blaster")
-c=Canvas(window,width=W,height=H,bg='darkblue')
-c.pack()
-ship_id=c.create_polygon(5,5,5,25,30,15,fill='orange')
-ship_id2=c.create_oval(0,0,30,30,outline='purple')
-SHIP_R=15
-MID_X=W/2
-MID_Y=H/2
-c.move(ship_id,MID_X,MID_Y)
-c.move(ship_id2,MID_X,MID_Y)
-</p>
-    <p><strong>English: </strong>English - A2 (I can read and understand literature, take courses in English)</p>
-  </main>
-    <footer><a href = "https://github.com/Maxic-spec"></a>
-    <p>2025</p>
-      <img src = "https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/rs-school-logo.svg" alt = "Icone of The Rolling Scops school">
-      
+      <div class="wrap">
+        <section class="personal">
+          <h1>Stavrov Maxim</h1>
+          <hr/>
+          <h2>Phone:</h2>
+          <p>+375 (29) 634 84 13</p>
+          <h2>E-mail:</h2>
+          <p>maksim.stavrov045@gmail.com</p>
+        </section>
+        <section class="goal">
+          <h3>My goal:</h3>
+          <p> I am taking this course to get to know programming better. I believe that taking this course will be a good start for my future career.</p>
+        </section>
+        <section class="education">
+          <p><strong>Education and Experience:</strong> I completed the course from EPAM ekids HTML&CSS,and i read a book “Python для детей” .</p>
+          <p><strong>Courses:</strong> I am taking now following courses:</p>
+          <a href="https://www.udemy.com/course/chatgpt-ai-openai-ru/learn/lecture/47118823?start=0#overview">ChatGPT: полный курс по AI и ChatGPT</a>
+          <a href="https://www.udemy.com/course/git-github-ru/learn/lecture/34967216#overview">Git - полный курс по Git и Github</a>
+        </section>
+        <section class="code">
+          <p><strong>Сode examples:</strong></p>
+          <code>
+            <pre>
+            from tkinter import *
+            H=500
+            W=800
+            window=Tk()
+            window.title("Buble Blaster")
+            c=Canvas(window,width=W,height=H,bg='darkblue')
+            c.pack()
+            ship_id=c.create_polygon(5,5,5,25,30,15,fill='orange')
+            ship_id2=c.create_oval(0,0,30,30,outline='purple')
+            SHIP_R=15
+            MID_X=W/2
+            MID_Y=H/2
+            c.move(ship_id,MID_X,MID_Y)
+            c.move(ship_id2,MID_X,MID_Y)
+            </pre>
+          </code>
+        </section>
+        <section class="language">
+          <p><strong>English: </strong>English - A2 (I can read and understand literature, take courses in English)</p>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <a class="link" href="https://github.com/Maxic-spec">GH-pages profile</a>
+      <p>2025</p>
+    </footer>  
 </html>
