@@ -8,9 +8,21 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>Hi,I am Max! 😜 Now,i will tell you about me!</header>
+    <header>Hi,I am Max! 😜 Now,i will tell you something about me!
+     <nav class="navbar">
+          <ul>  
+          <li class="a"><a href="#about">About me</a></li>
+          <li class="b"><a href="#goal">My goal</a></li>
+          <li class="c"><a href="#experience">Expierience</a></li>
+          <li class="d"><a href="#skills">Skills</a></li>
+          <li class="e"><a href="#code">Languages</a></li>
+          <li class="f"><a href="#languages">Code Example</a></li>
+          <li class="g"><a href="#projects">Projects</a></li>
+          </ul>
+     </nav>
+    </header>
     <main>
-      <div class="wrap">
+      <div class="wrap" id="about">
         <section class="personal">
           <h1>Stavrov Maxim</h1>
           <hr/>
@@ -27,18 +39,21 @@
           </div>
         </section>
         <section class="goal">
-          <h3>My goal:</h3>
+          <h3 id="goal">My goal:</h3>
           <p> I am taking this course to get to know programming better. I believe that taking this course will be a good start for my future career.</p>
         </section>
         <section class="education">
-          <p><strong>Education and Experience:</strong> I completed the course from EPAM ekids HTML&CSS,and i read a book “Python для детей” .</p>
+          <p id="experience"><strong>Education and Experience:</strong> I completed the course from EPAM ekids HTML&CSS,and i read a book “Python для детей” .</p>
           <p><strong>Courses:</strong> I am taking now following courses:</p>
           <a href="https://www.udemy.com/course/chatgpt-ai-openai-ru/learn/lecture/47118823?start=0#overview">ChatGPT: полный курс по AI и ChatGPT</a>
           <a href="https://www.udemy.com/course/git-github-ru/learn/lecture/34967216#overview">Git - полный курс по Git и Github</a>
         </section>
+        <section class="skills"> 
+          <p id="skills"><strong>My skills:</strong> I know programming languages such as HTML and CSS quite well. I also know a little Python. I hope to learn JavaScript on this course!</p>
+        </section>
         <section class="code">
-          <p><strong>Сode examples:</strong></p>
-          <code>
+          <p id="code"><strong>Сode examples:</strong></p>
+          <code class="code">
             <pre>
             from tkinter import *
             H=500
@@ -50,15 +65,20 @@
             ship_id=c.create_polygon(5,5,5,25,30,15,fill='orange')
             ship_id2=c.create_oval(0,0,30,30,outline='purple')
             SHIP_R=15
-            MID_X=W/2
-            MID_Y=H/2
             c.move(ship_id,MID_X,MID_Y)
             c.move(ship_id2,MID_X,MID_Y)
             </pre>
           </code>
         </section>
-        <section class="language">
+        <section class="languages">
+          <p id="language">My language skills:</p>
           <p><strong>English: </strong>English - A2 (I can read and understand literature, take courses in English)</p>
+          <p><strong>Russian: </strong>russian - national</p>
+          <p><strong>Belarusian: </strong>belarusian - national</p>
+        </section>
+        <section class="projects">
+          <h3 id="projects">My projects:</h3>
+          <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage0.md">CV</a>
         </section>
       </div>
     </main>
