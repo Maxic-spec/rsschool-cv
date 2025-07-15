@@ -8,16 +8,18 @@ body {
 }
 
 header {
+  justify-content: space-between;
   background: #af912e;
-  height: 50px;
+  height: 170px;
   display: flex;
   align-items: center;
   padding-left: 20px;
 }
 
 a {
+  font-family: Herculanum;
   display: block;
-  color: #494330;
+  color: cornflowerblue;
   font-size: 14px;
   text-decoration: none;
   line-height: 18px;
@@ -33,13 +35,13 @@ main {
   align-items: center;
   justify-content: center;
   background: beige;
-  height: 920px;
+  height: 1100px;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
-  height: 60px;
+  height: 120px;
   color: white;
   padding: 10px;
   background: #393b4f;
@@ -73,8 +75,99 @@ img {
 
 .personal {
   border-bottom: 1px solid gray;
+  background-color: red;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .logo {
-  height: 50px;
+  height: 80px;
+}
+
+.a {
+  color: red;
+}
+
+.b {
+  color: orange;
+}
+
+.c {
+  color: yellow;
+}
+
+.d {
+  color: green;
+}
+
+.e {
+  color: rgb(108, 108, 255);
+}
+
+.f {
+  color: blue;
+}
+
+.g {
+  color: purple;
+}
+
+p {
+  font-family: Liberation Sans;
+  font-size: 18px;
+}
+
+.code {
+  background-color: rgb(108, 108, 255);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+}
+
+.goal {
+  background-color: orange;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.education {
+  background-color: yellow;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.skills {
+  background-color: green;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.languages {
+  background-color: blue;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.projects {
+  background-color: purple;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    display: flex;
+    z-index: 1000;
+    padding: 10px 20px;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    width: 100%;
+    font-size: 40px;
 }
