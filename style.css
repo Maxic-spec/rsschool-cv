@@ -1,0 +1,124 @@
+body {
+  width: 100vw;
+  font-size: 16px;    
+  text-align: justify;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  justify-content: space-between;
+  background: #af912e;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+a {
+  font-family: Herculanum;
+  display: block;
+  color: cornflowerblue;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 18px;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #4c8cb2;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: beige;
+  height: 1100px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  color: white;
+  padding: 10px;
+  background: #393b4f;
+}
+
+.wrap {
+  width: 70%;
+}
+
+.link {
+  color: rgb(146, 146, 245);
+}
+
+code {
+  font-family: Consolas,"courier new";
+  line-height: 16px;
+  font-size: 12px;
+}
+
+img {
+  width: 230px;
+}
+
+.person {
+  display: flex;
+}
+
+.item {
+  margin-right: 20px;;
+}
+
+.personal {
+  border-bottom: 1px solid gray;
+}
+
+.logo {
+  height: 80px;
+}
+
+.a {
+  color: red;
+}
+
+.b {
+  color: orange;
+}
+
+.c {
+  color: yellow;
+}
+
+.d {
+  color: green;
+}
+
+.e {
+  color: rgb(108, 108, 255);
+}
+
+.f {
+  color: blue;
+}
+
+.g {
+  color: purple;
+}
+
+p {
+  font-family: Liberation Sans;
+  font-size: 18px;
+}
+
+.navbar {
+  display: flex;
+  z-index: 1000;
+  padding: 10px 20px;
+  justify-content: center;
+  width: 100%;
+  font-size: 40px;
+}
