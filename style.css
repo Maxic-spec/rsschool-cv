@@ -116,10 +116,10 @@ p {
 
 
 .navbar {
-    display: flex;
-    z-index: 1000;
-    padding: 10px 20px;
-    justify-content: center;
-    width: 100%;
-    font-size: 40px;
+  display: flex;
+  z-index: 1000;
+  padding: 10px 20px;
+  justify-content: center;
+  width: 100%;
+  font-size: 40px;
 }
