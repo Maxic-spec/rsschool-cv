@@ -24,4 +24,6 @@
     MID_Y=H/2
     c.move(ship_id,MID_X,MID_Y)
     c.move(ship_id2,MID_X,MID_Y)
-``` **English**: A2.
+```
+
+**English**: A2.
