@@ -1,9 +1,14 @@
 # Stavrov Maxim 
 **Phone**:+375 (29) 634 84 13 
-**E-mail**: maksim.stavrov045@gmail.com 
+
+**E-mail**: maksim.stavrov045@gmail.com
+
 **My goal**: I am taking this course to get to know programming better. I believe that taking this course will be a good start for my future career.
+
 **Education & Experience**: I completed the course from EPAM ekids HTML&CSS,and i read a book "Python для детей" and "Что находиться внутри компьютера и как это работает".
-**Courses**: I am taking now following courses: * [Git - курс по Git и Github ](https://www.udemy.com/course/git-github-ru/learn/lecture/34967216#overview) * [ChatGPT: полный курс по AI and ChatGPT](https://www.udemy.com/course/chatgpt-ai-openai-ru/learn/lecture/47118823?start=0#overview) 
+
+**Courses**: I am taking now following courses: * [Git - курс по Git и Github ](https://www.udemy.com/course/git-github-ru/learn/lecture/34967216#overview) * [ChatGPT: полный курс по AI and ChatGPT](https://www.udemy.com/course/chatgpt-ai-openai-ru/learn/lecture/47118823?start=0#overview)
+
 **Сode examples**: 
 ``` from tkinter import * 
     H=500
